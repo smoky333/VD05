@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}About - My Flask App{% endblock %}
+
+{% block content %}
+    <h1>About Us</h1>
+    <p>We are a team dedicated to building web applications using Flask. Learn more about our journey and mission.</p>
+
+    <!-- Кнопка для перехода на главную страницу -->
+    <a href="{{ url_for('home') }}" class="button">Back to Home</a>
+{% endblock %}
